@@ -1,19 +1,16 @@
-# SQL-Murder-Case
-Analise da Base de Dados do SQL Murder Cases
-TÍTULO: Como Usei SQL para Resolver um Assassinato (e Provar Meu Valor como Analista)
-Do exercício técnico ao desafio de negócio
+Como Usei SQL para Resolver um Assassinato 
+
 Encontrei o SQL Murder Mystery procurando uma forma de praticar consultas SQL. Mas enquanto montava as queries para resolver o caso, comecei a pensar: e se eu fosse além?
 Decidi que não ia só encontrar o assassino. Queria explorar os dados com uma visão de negócio — olhar para as mesmas tabelas e tentar responder perguntas que agregariam valor em uma empresa real.
-A realidade dos dados
-Quando abri o banco de dados, vi que tinha apenas 7 tabelas e um único caso de assassinato. Não era o cenário ideal para fazer análises profundas de padrões.
-Mas isso me fez repensar a abordagem: trabalhei a lógica de negócio em cima do que tinha disponível. No fim, é exatamente isso que fazemos no dia a dia — nem sempre temos os dados perfeitos, mas precisamos entregar insights mesmo assim.
-A metodologia em três etapas
+
 FASE 1: Investigação Raiz
 Comecei pelo registro de ocorrências e entrevistas policiais. Extraí três pistas textuais: academia, ID de membro começando com 48Z, e placa terminando em H42W.
 O desafio? Conectar 6 tabelas diferentes (cadastro de pessoas, carteiras de motorista, membros da academia, check-ins) para cruzar essas informações. Usei JOINs estratégicos e filtros em sequência até isolar o único indivíduo que atendia todos os critérios: Jeremy Bowers.
+
 FASE 2: Inteligência de Negócio
 Peguei as mesmas tabelas da investigação e remodelei a lógica para responder perguntas de negócio. Em vez de "quem é o culpado?", passei a perguntar "qual horário tem mais movimento?" ou "qual região tem mais risco?".
 Transformei dados de check-in em análise de horários de pico. Transformei endereços em mapa de risco geográfico. Transformei critérios de suspeita em sistema de pontuação (lead scoring).
+
 FASE 3: Automação com IA como Parceira
 Aqui está um ponto importante: usei o Gemini para gerar os códigos SQL e Python, mas a estratégia foi toda minha.
 Eu conduzia as análises definindo:

@@ -1,4 +1,4 @@
-Como Usei SQL para Resolver um Assassinato 
+O Que Aprendi Resolvendo um Caso Criminal com SQL (Além de Encontrar o Assassino)
 
 Encontrei o SQL Murder Mystery procurando uma forma de praticar consultas SQL. Mas enquanto montava as queries para resolver o caso, comecei a pensar: e se eu fosse além?
 Decidi que não ia só encontrar o assassino. Queria explorar os dados com uma visão de negócio — olhar para as mesmas tabelas e tentar responder perguntas que agregariam valor em uma empresa real.
